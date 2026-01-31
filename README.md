@@ -1,16 +1,57 @@
-# wsd_lab
+# Work System Design Lab Experiments App
 
-Flutter app for WSD Lab Experiments
+A Flutter-based mobile application designed for Work System Design (WSD) and Ergonomics laboratory experiments. This tool provides structured modules, experimental procedures, and interactive assessments for industrial engineering students.
+
+## Features
+
+* **Experiment Modules**: Complete documentation for lab tasks:
+    * **Preliminary Method Study**: Pen, 3-pin plug, and bicycle pedal assembly.
+    * **Ergonomic Variables**: Hand-finger movement, coordination, and learning curves.
+    * **Physical Capacity**: Work/recovery cycles via bicycle ergometer and treadmill.
+    * **NIOSH Lifting Equation**: RWL and Lifting Index calculations.
+    * **Environmental Factors**: Visibility and illumination studies.
+    * **Anthropometry**: Body dimension variability for sustainable design.
+* **Interactive Assessment**: Built-in True/False quiz covering all lab principles.
+* **Visual Guides**: Step-by-step diagrams and images for hardware setup.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+* [Flutter SDK](https://docs.flutter.dev/get-started/install)
+* Dart SDK
+* Android Studio / Xcode (for mobile emulators)
 
-A few resources to get you started if this is your first Flutter project:
+### Installation & Run
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/jnanasreekonda/wsd_lab.git](https://github.com/jnanasreekonda/wsd_lab.git)
+    cd wsd_lab
+    ```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+
+3.  **Run the app:**
+    ```bash
+    flutter run
+    ```
+
+## Project Structure
+
+* `lib/main.dart`: UI logic and navigation.
+* `lib/question.dart`: Data structure for laboratory quizzes.
+* `Images/`: Asset directory for experimental setups and diagrams.
+* `pubspec.yaml`: Project dependencies and configuration.
+
+## Development
+
+This project was built using:
+* **Framework**: Flutter
+* **Language**: Dart
+* **Platform Support**: Android, iOS, and Web
+
+## License
+This project is for educational purposes within the WSD Lab.
